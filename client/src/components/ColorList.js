@@ -113,24 +113,3 @@ const ColorList = ({ colors, updateColors }) => {
 
 export default ColorList;
 
-
-// const newColor = color => {
-//   newColor = {
-//     color: color.color,
-//     code: {
-//       hex : color.code.hex
-//     },
-//     id: color.id
-//   }
-// }
-// const color = newColor(updatedColor)
-
-// const noneUpdatedColors = colors.filter( color =>{
-//   if(color.id !== res.data.id){
-//     return color
-//   }else{
-//     return null
-//   }
-// })
-
-// console.log(noneUpdatedColors)
