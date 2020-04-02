@@ -1,0 +1,11 @@
+ 1.Explain what a token is used for?
+	Answer: A token is like a password for the web page. If you put in the correct information the server will respond with a token for the user and allow passage. This token can be required in order to interact with certain parts of the website. 
+ 
+2. What steps can you take in your web apps to keep your data secure?
+	Answer: Web apps can keep data secure by making certain pages restricted for users unless you have the proper token to access it. Implementation is relatively easy and will keep unregistered users or visitors to the site off certain pages and away from secured data.
+ 
+3. Describe how web servers work.
+    Answer:   A web server is the actual location and storage place for developers code and data. Additionally, a web server is the software that is used to read the incoming code and IP address to help location and dispatch code. A web server receives data from internet browsers, usually a request for data or code when a user types in a URL. Web servers then use the IP address to locate the information/code requested and then renders it to the screen for the user. 
+ 
+4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+	Answer: The HTTP methods that can be mapped to the CRUD acronym are put,post,get, and delete requests. CRUD stands for create/read/update/delete. Create happens when performing a post request and in some cases a put request as well. Read happens when we use a get request to request data from an API. Update happens when we try to edit existing information in a server or external API using a put request. Finally, delete happens when we make a delete request to erase a specific piece of data for an API or database.
